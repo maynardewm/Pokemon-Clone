@@ -1,0 +1,123 @@
+/* CSS Document */
+
+#wrapper {
+	position: relative;
+	padding: 0 auto;
+}
+#game-bg {
+	width: 416px;
+	height: 416px;
+	border: solid 1px #000;
+	position: absolute;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 0;
+	background-color: #000;
+	
+}
+#game-box {
+	border: solid 1px #000;
+	position: absolute;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 1;
+	background-color: transparent;
+	
+}
+#canvas_plr {
+	position: absolute;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 2;
+	background-color: transparent;
+}
+
+#canvas_npc {
+	position: absolute;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 3;
+	background-color: transparent;
+}
+
+#canvas_inf {
+	position: absolute;
+	top: 30;
+	left: 40%;
+	margin-left: -382px;
+	z-index: 3;
+	background-color: transparent;
+}
+
+#canvas_menu {
+	position: absolute;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 4;
+	border: solid 1px #000;
+	background-color: transparent;
+}
+
+
+/* ----------PRELOADER---------- */
+#loading {
+	position: absolute;
+	width: 418px;
+	height: 368px;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 99;
+	background-color: #FFF;
+	text-align: center;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #bababa;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#clickscreen {
+	border: solid 1px #000;
+	display: none;
+	position: absolute;
+	width: 418px;
+	height: 203px;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 99;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #999;
+	background-image: url("clickscreen.jpg");
+	padding-top: 215px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#preload-box {
+	border: solid 1px #000;
+	display: none;
+	position: absolute;
+	width: 418px;
+	height: 318px;
+	top: 30;
+	left: 50%;
+	margin-left: -192px;
+	z-index: 99;
+	background-color: #FFF;
+	text-align: center;
+	padding-top: 100px;
+	background-image: url("bg-preloader.gif");
+	background-repeat: no-repeat;
+}
